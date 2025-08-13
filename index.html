@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ma première page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Brocoli - <strong>Photographie</strong></h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">ACCUEIL</a></li>
+                <li><a href="#photos">PHOTOS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="accueil">A propos</h2>
+            <p>Je suis un photographe amateur depuis maintenant x années. Je n'essaye pas de rendre mes photos <em>parfaites</em>, j'essaye plutôt de capturer un moment, une scène, un lieu.</p>    
+        </section>
+        <section>
+            <h2 id="photos">Quelques photos</h2>
+            <div class="galerie">
+                <img src="pictures/DSC03704.jpg" alt="Montagnes à Ha Giang">
+                <img src="pictures/DSC03747-Avec accentuation-Bruit.jpg" alt="Montagnes et rivière à Ha Giang">
+                <img src="pictures/DSC03754-Avec accentuation-Bruit.jpg" alt="Montagnes à travers une fente à Ha Giang">
+                <img src="pictures/DSC04691.jpg" alt="Téléphériques">
+                <img src="pictures/DSC05114.jpg" alt="Da Nang vu de haut">
+                <img src="pictures/DSC05131.jpg" alt="Temple vietnamien à Da Nang">
+            </div>
+        </section>
+    </main>
+    <footer>
+            <div class="footer-left">
+                <h2 id="contact">Contact</h2>
+                <form>
+                    <p>
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom">
+                    </p>
+                    
+                    <p>
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email">
+                    </p>
+
+                    <p>
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message"></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Envoyer le message</button>
+                    </p>
+                </form>
+            </div>
+            <div class="footer-right">
+                <p>Copyright &copy; 2025 Broco Photographie</p>
+            </div>
+    </footer>
+</body>
+
+</html>
