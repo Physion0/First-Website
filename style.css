@@ -43,6 +43,7 @@ main {
 
 .galerie{
     display: flex;
+    justify-content: center;
     gap: 1.5em;
     flex-wrap: wrap;
 }
@@ -72,4 +73,5 @@ footer{
 
 .footer-right{
     margin-right: 1em;
+
 }
