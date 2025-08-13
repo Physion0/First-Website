@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    background-color: #655560; /* Wenge */
-    color: #fcf7ff; /* Magnolia */
+    background-color: rgb(28, 37, 65);
+    color: rgb(183, 206, 206) ;
     padding: 1em;
 }
 
@@ -31,7 +31,7 @@ header ul {
 }
 
 header a {
-    color: #fcf7ff; /* Magnolia */
+    color: rgb(183, 206, 206);
     font-weight:800;
     text-decoration: none;
 }
@@ -42,39 +42,10 @@ header a:hover {
 
 main {
     margin:0;
-    background-color: #fcf7ff; /* Magnolia */
-    padding: 1.5em;
-    color: #655560; /* Wenge */
+    background-color: rgb(226, 226, 226);
+    padding: 2em;
+    color: rgb(28, 37, 65);
     flex:1;
-}
-
-.welcome {
-    font-size: large;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 1.5em;
-}
-
-.welcome h2 {
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    gap: 1em;
-}
-
-/* Partie non écrite par moi */
-.welcome h2::before,
-.welcome h2::after {
-    content: '';
-    flex-grow: 1;
-    height: 3px;
-    background-color: #655560; /* Wenge */
-}
-/* Fin partie non écrite par moi */
-
-.welcome p {
-    margin-top: 1em;
 }
 
 .galerie{
@@ -95,11 +66,11 @@ main {
 footer{
     margin: 0;
     padding: 1em;
-    background-color: #a4969b; /* Rose quartz */
+    background-color: rgb(110, 126, 133);
     display: flex;
     justify-content: space-between;
     align-items:center;
-    color: #fcf7ff; /* Magnolia */
+    color: rgb(226, 226, 226);
 }
 
 .footer-left{
@@ -110,11 +81,11 @@ footer{
 
 .footer-left a {
     text-decoration: none;
-    color: #fcf7ff; /* Magnolia */
+    color: rgb(226, 226, 226);
 }
 
 .footer-left a:hover{
-    color: #655560; /* Wenge */
+    color: rgb(110, 126, 133);
     transition-duration: 0.5s;
 }
 
